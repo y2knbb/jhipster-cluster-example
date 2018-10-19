@@ -41,3 +41,8 @@ eureka:
         register-with-eureka: true
         service-url:
             defaultZone: http://admin:${spring.security.user.password:admin}@eureka-peer-2:8762/eureka/
+jhipster:
+    security:
+        authentication:
+            jwt:
+               base64-secret: bXktc2VjcmV0LWtleS13aGljaC1zaG91bGQtYmUtY2hhbmdlZC1pbi1wcm9kdWN0aW9uLWFuZC1iZS1iYXNlNjQtZW5jb2RlZAo=
